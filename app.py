@@ -20,7 +20,7 @@ llm = get_llm({})
 st.markdown("""# 🔍 MyRetriver 🔍
             Query Magic: the Gathering cards according to a specific prompts
             """)
-st.image(image="icon.jpeg", caption="source: Reddit", use_column_width=True)
+st.image(image="images/icon.jpeg", caption="source: Reddit", use_column_width=True)
 
 example = "A creature that returns an artifact when it dies"
 
