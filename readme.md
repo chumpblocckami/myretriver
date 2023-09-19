@@ -1,5 +1,6 @@
 # 🔍 MyRetriver 🔍
 ![logo](icon.jpeg)
+
 Query Magic: the Gathering cards according to a specific prompts
 
 ## How to use:
@@ -7,7 +8,7 @@ Query Magic: the Gathering cards according to a specific prompts
 1. Install from source:
 
 ```
-git clone **this repo**
+git clone https://github.com/chumpblocckami/myretriver
 pip install -r requirements.txt
 streamlit run app.py
 ````
