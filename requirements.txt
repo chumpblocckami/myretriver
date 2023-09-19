@@ -6,3 +6,4 @@ tqdm
 python-dotenv
 openai
 streamlit
+pysqlite3-binary
