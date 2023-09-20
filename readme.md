@@ -1,6 +1,6 @@
 # 🔍 MyRetriver 🔍
 
-![logo](images/icon.jpeg)
+![logo](images/icon.png)
 
 Query Magic: the Gathering cards according to a specific prompts
 
@@ -23,7 +23,5 @@ streamlit run app.py
 
 3. From website:
    Go to [www.streamlit.com/myretriver](https://myretriver.streamlit.app/)
-
-## How to use:
 
 ### NB: It needs a valid OPENAI_API_KEY

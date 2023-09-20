@@ -5,6 +5,8 @@ import streamlit as st
 from src.db import Embedder
 from src.llm import LLM
 
+st.set_page_config(page_title="MyRetriver")
+
 
 @st.cache_resource
 def get_llm(args):
@@ -20,9 +22,10 @@ llm = get_llm({})
 st.markdown("""# 🔍 MyRetriver 🔍
             Query Magic: the Gathering cards according to a specific prompts
             """)
-st.image(image="images/icon.jpeg", caption="source: Reddit", use_column_width=True)
+st.image(image="images/icon.png", caption="source: Reddit", use_column_width=True)
 
 example = "A creature that returns an artifact when it dies"
+k = 1
 
 with st.form("input_form"):
     query = st.text_input(label="Describe the card", value=example)
